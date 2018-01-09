@@ -1,0 +1,181 @@
+
+        thead{background-color: #f6f6f6;font-family: serif; font-size: 18px; text-align: left; border-bottom: 1px solid #666666;}
+        thead tr th:nth-child(1){text-align:left; font-weight: bold;}      
+        thead tr th:nth-child(2){text-align:left; font-weight: bold;}
+        thead tr th:nth-child(3){text-align:right; font-weight: bold;}         
+
+
+        td, th { padding: 5px; font-weight:normal;}
+ 
+
+        .#FtKTable tbody .ftChild:nth-child(odd) { background-color: #f2f2f2; }
+        #FtKTable tbody .ftChild:nth-child(even) { background-color: lightgrey; }
+       #FtKTable tr td:nth-child(1){width: 15px; font-size: 12px; font-weight:normal; color:black;border-bottom: 1px solid;}
+        #FtKTable tr td:nth-child(2){width: 225px; font-size: 12px; font-weight:normal; color:black;border-bottom: 1px solid;}
+        #FtKTable tr td:nth-child(3){width: 65px; font-size: 12px; font-weight: normal; color:black;border-bottom: 1px solid;}
+        #FtKTable tr th{font-family: Serif; font-size: 18px; background-color:#f6f6f6; text-align:left; padding-left: 20px;}
+
+    #FtKTable, td {
+        border-bottom: 1px #666666;
+        border-style: none;
+        border-collapse: collapse;
+        padding-left:20px;
+       background-color: rgba(204, 255, 153, 0.1);         
+    }   
+
+
+
+       #FtHTable tr td:nth-child(1){width: 115px; font-size: 12px; font-weight:normal; color:black;border-bottom: 1px solid;}
+        #FtHTable tr td:nth-child(2){width: 30px; font-size: 12px; font-weight:normal; color:black;border-bottom: 1px solid;}
+        #FtHTable tr td:nth-child(3){width: 115px; font-size: 12px; font-weight: normal; color:black;border-bottom: 1px solid;}
+        #FtHTable tr th{font-family: Serif; font-size: 18px; background-color:#f6f6f6; text-align:left; padding-left: 20px;}
+
+    #FtHTable, td {
+        border-bottom: 1px #666666;
+        border-style: none;
+        border-collapse: collapse;
+        padding-left:20px;
+       background-color: rgba(204, 255, 153, 0.1);         
+    }        
+
+
+
+
+
+       #KbTable tr td:nth-child(1){width: 115px; font-size: 12px; font-weight:normal; color:black;border-bottom: 1px solid;}
+        #KbTable tr td:nth-child(2){width: 30px; font-size: 12px; font-weight:normal; color:black;border-bottom: 1px solid;}
+        #KbTable tr td:nth-child(3){width: 115px; font-size: 12px; font-weight: normal; color:black;border-bottom: 1px solid;}
+        #KbTable tr th{font-family: Serif; font-size: 18px; background-color:#f6f6f6; text-align:left; padding-left: 20px;}
+
+    #KbTable, td {
+        border-bottom: 1px #666666;
+        border-style: none;
+        border-collapse: collapse;
+        padding-left:20px;
+       background-color: rgba(204, 255, 153, 0.1);         
+    }        
+    a,
+    /* unvisited link */
+    a:link {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    /* visited link */
+    a:visited {
+        color: blue;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+
+    /* selected link */
+    a:active {
+        color: blue;
+        text-decoration: none;
+    }  
+          
+
+    
+    .flex-container {
+        display: -webkit-flex;
+        display: flex;
+    }    
+
+
+    p {
+        margin-top: 0px;
+        padding-top:0px;
+        margin-bottom: 0px;
+        margin-right: 10px;
+        margin-left: 0px;
+        color: #9F5584;
+        font-weight: bold;
+        font-family: Serif;
+        font-size: 20px;
+        padding-left:5px;
+        text-align: left;
+        
+
+    }
+
+    h3 {
+        margin-top: 0px;
+        padding-top:0px;
+        margin-bottom: 0px;
+        margin-right: 10px;
+        margin-left: 0px;
+        color: #9F5584;
+        font-weight: normal;
+        font-family: Arial ;
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    h4 {
+        margin-top: 0px;
+        padding-top:0px;
+        margin-bottom: 0px;
+        margin-right: 10px;
+        margin-left: 0px;
+        color: #f6f6f6;
+        font-weight: normal;
+        font-family: Serif;
+        font-size: 18px;
+        padding-left:45px;
+        text-align: left;
+
+    }
+
+
+    h5 {
+        margin-top: 0px;
+        padding-top:0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        color: #9F5584;
+        font-weight: normal;
+        font-family: Arial ;
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    h6 {
+        margin-top: 0px;
+        padding-top:0px;
+        margin-bottom: 0px;
+        margin-right: 10px;
+        margin-left: 0px;
+        color: #666666;
+        font-weight: normal;
+        font-family: Helvetica ;
+        font-size: 16px;
+        text-align: left;
+
+    }
+
+   
+
+    table, th {
+ 
+}
+
+    table, td {
+   
+}
+
+        /*Check for message requirements*/   
+        .message { margin-top: 7px; font-family: arial; font-size: 12px; color: #666666; text-align: center; background-color: lightgreen; border: 1px solid lightgrey; padding-left: 0px; padding-right: 0px; }
+        .message2 { margin-top: 7px; font-family: arial; font-size: 12px; color: white; text-align: center; background-color: red; border: 1px solid #666666; padding-left: 0px; padding-right: 0px; }
+        .message3 { margin-top: 7px; font-family: arial; font-size: 12px; color: #666666; text-align: center; background-color: lightgreen; border: 1px solid lightgrey; padding-left: 0px; padding-right: 0px; }
+        .message4 { margin-top: 7px; font-family: arial; font-size: 12px; color: white; text-align: center; background-color: red; border: 1px solid #666666; padding-left: 0px; padding-right: 0px; }       
+        .success { margin-top: 7px; font-family: arial; font-size: 12px; color: #666666; text-align: center; background-color: lightgreen; border: 1px solid lightgrey; padding-left: 0px; padding-right: 0px; }
+        .error { margin-top: 7px; font-family: arial; font-size: 12px; color: white; text-align: center; background-color: red; border: 1px solid #666666; padding-left: 0px; padding-right: 0px; }
+
+    
